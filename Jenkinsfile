@@ -5,11 +5,12 @@ pipeline {
       steps {
         echo 'Hello world!'
       }
-      stage('Stage 1') {
-      steps {
-        echo 'Adding another Step1'
+    }
+      stage('Stage 2') {
+        steps {
+          echo 'Adding another Step1'
       }
       }
     }
   }
-}
+
